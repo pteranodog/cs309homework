@@ -1,0 +1,36 @@
+GDB TEST PROTOCOL FOR LAB 4
+Open gdb:
+gdb --args ./earlyLab4
+
+Start:
+start
+
+Provide the starting address for the first string that is printed to the screen:
+info address initString
+
+Set a breakpoint at the top of the loop that sums and prints the numbers:
+break continueloop
+
+Continue:
+c
+
+Program asks to enter a number:
+3
+
+Continue:
+c
+
+Examine the contents of the registers that are being used for the counter and the sum:
+info registers r4 r5
+
+Continue:
+c
+
+Show that the registers have been updated correctly:
+info registers r4 r5
+
+Continue:
+c
+
+Quit:
+quit
